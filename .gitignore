@@ -1,2 +1,8 @@
 # .gitignore (frontend)
-# Any other files/folders you want to ignore, e.g., if you have a build step
+# Add any local temporary files or directories you want to ignore here
+# For example, if you had a 'build' folder:
+# /build/
+
+# These lines might have come from the remote backend's .gitignore during merge:
+node_modules/
+.env
